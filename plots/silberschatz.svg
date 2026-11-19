@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" font-family="Arial, sans-serif" font-size="13">
+<rect width="720" height="460" fill="white"/>
+<text x="320.0" y="28" text-anchor="middle" font-size="16" font-weight="bold">Контрольная строка Silberschatz (20 обращений)</text>
+<line x1="70" y1="400.0" x2="570" y2="400.0" stroke="#e5e5e5"/>
+<text x="62" y="404.0" text-anchor="end">0</text>
+<line x1="70" y1="365.0" x2="570" y2="365.0" stroke="#e5e5e5"/>
+<text x="62" y="369.0" text-anchor="end">2</text>
+<line x1="70" y1="330.0" x2="570" y2="330.0" stroke="#e5e5e5"/>
+<text x="62" y="334.0" text-anchor="end">4</text>
+<line x1="70" y1="295.0" x2="570" y2="295.0" stroke="#e5e5e5"/>
+<text x="62" y="299.0" text-anchor="end">6</text>
+<line x1="70" y1="260.0" x2="570" y2="260.0" stroke="#e5e5e5"/>
+<text x="62" y="264.0" text-anchor="end">8</text>
+<line x1="70" y1="225.0" x2="570" y2="225.0" stroke="#e5e5e5"/>
+<text x="62" y="229.0" text-anchor="end">10</text>
+<line x1="70" y1="190.0" x2="570" y2="190.0" stroke="#e5e5e5"/>
+<text x="62" y="194.0" text-anchor="end">12</text>
+<line x1="70" y1="155.00000000000003" x2="570" y2="155.00000000000003" stroke="#e5e5e5"/>
+<text x="62" y="159.00000000000003" text-anchor="end">14</text>
+<line x1="70" y1="120.0" x2="570" y2="120.0" stroke="#e5e5e5"/>
+<text x="62" y="124.0" text-anchor="end">16</text>
+<line x1="70" y1="85.0" x2="570" y2="85.0" stroke="#e5e5e5"/>
+<text x="62" y="89.0" text-anchor="end">18</text>
+<line x1="70" y1="50.0" x2="570" y2="50.0" stroke="#e5e5e5"/>
+<text x="62" y="54.0" text-anchor="end">20</text>
+<line x1="70.0" y1="50" x2="70.0" y2="400" stroke="#f0f0f0"/>
+<text x="70.0" y="420" text-anchor="middle">1</text>
+<line x1="141.42857142857144" y1="50" x2="141.42857142857144" y2="400" stroke="#f0f0f0"/>
+<text x="141.42857142857144" y="420" text-anchor="middle">2</text>
+<line x1="212.85714285714286" y1="50" x2="212.85714285714286" y2="400" stroke="#f0f0f0"/>
+<text x="212.85714285714286" y="420" text-anchor="middle">3</text>
+<line x1="284.2857142857143" y1="50" x2="284.2857142857143" y2="400" stroke="#f0f0f0"/>
+<text x="284.2857142857143" y="420" text-anchor="middle">4</text>
+<line x1="355.7142857142857" y1="50" x2="355.7142857142857" y2="400" stroke="#f0f0f0"/>
+<text x="355.7142857142857" y="420" text-anchor="middle">5</text>
+<line x1="427.14285714285717" y1="50" x2="427.14285714285717" y2="400" stroke="#f0f0f0"/>
+<text x="427.14285714285717" y="420" text-anchor="middle">6</text>
+<line x1="498.57142857142856" y1="50" x2="498.57142857142856" y2="400" stroke="#f0f0f0"/>
+<text x="498.57142857142856" y="420" text-anchor="middle">7</text>
+<line x1="570.0" y1="50" x2="570.0" y2="400" stroke="#f0f0f0"/>
+<text x="570.0" y="420" text-anchor="middle">8</text>
+<rect x="70" y="50" width="500" height="350" fill="none" stroke="#333"/>
+<text x="320.0" y="445" text-anchor="middle">число кадров</text>
+<text transform="translate(20,225.0) rotate(-90)" text-anchor="middle">число страничных отказов</text>
+<polyline points="70.0,50.0 141.4,137.5 212.9,137.5 284.3,225.0 355.7,242.5 427.1,295.0 498.6,295.0 570.0,295.0" fill="none" stroke="#d62728" stroke-width="2.2" stroke-dasharray=""/>
+<circle cx="70.0" cy="50.0" r="3.5" fill="#d62728"><title>FIFO: 1 кадров → 20</title></circle>
+<circle cx="141.4" cy="137.5" r="3.5" fill="#d62728"><title>FIFO: 2 кадров → 15</title></circle>
+<circle cx="212.9" cy="137.5" r="3.5" fill="#d62728"><title>FIFO: 3 кадров → 15</title></circle>
+<circle cx="284.3" cy="225.0" r="3.5" fill="#d62728"><title>FIFO: 4 кадров → 10</title></circle>
+<circle cx="355.7" cy="242.5" r="3.5" fill="#d62728"><title>FIFO: 5 кадров → 9</title></circle>
+<circle cx="427.1" cy="295.0" r="3.5" fill="#d62728"><title>FIFO: 6 кадров → 6</title></circle>
+<circle cx="498.6" cy="295.0" r="3.5" fill="#d62728"><title>FIFO: 7 кадров → 6</title></circle>
+<circle cx="570.0" cy="295.0" r="3.5" fill="#d62728"><title>FIFO: 8 кадров → 6</title></circle>
+<line x1="585" y1="65" x2="615" y2="65" stroke="#d62728" stroke-width="3" stroke-dasharray=""/>
+<text x="622" y="69">FIFO</text>
+<polyline points="70.0,50.0 141.4,102.5 212.9,190.0 284.3,260.0 355.7,277.5 427.1,295.0 498.6,295.0 570.0,295.0" fill="none" stroke="#1f77b4" stroke-width="2.2" stroke-dasharray="6,3"/>
+<circle cx="70.0" cy="50.0" r="3.5" fill="#1f77b4"><title>LRU: 1 кадров → 20</title></circle>
+<circle cx="141.4" cy="102.5" r="3.5" fill="#1f77b4"><title>LRU: 2 кадров → 17</title></circle>
+<circle cx="212.9" cy="190.0" r="3.5" fill="#1f77b4"><title>LRU: 3 кадров → 12</title></circle>
+<circle cx="284.3" cy="260.0" r="3.5" fill="#1f77b4"><title>LRU: 4 кадров → 8</title></circle>
+<circle cx="355.7" cy="277.5" r="3.5" fill="#1f77b4"><title>LRU: 5 кадров → 7</title></circle>
+<circle cx="427.1" cy="295.0" r="3.5" fill="#1f77b4"><title>LRU: 6 кадров → 6</title></circle>
+<circle cx="498.6" cy="295.0" r="3.5" fill="#1f77b4"><title>LRU: 7 кадров → 6</title></circle>
+<circle cx="570.0" cy="295.0" r="3.5" fill="#1f77b4"><title>LRU: 8 кадров → 6</title></circle>
+<line x1="585" y1="87" x2="615" y2="87" stroke="#1f77b4" stroke-width="3" stroke-dasharray="6,3"/>
+<text x="622" y="91">LRU</text>
+<polyline points="70.0,50.0 141.4,172.5 212.9,242.5 284.3,260.0 355.7,277.5 427.1,295.0 498.6,295.0 570.0,295.0" fill="none" stroke="#2ca02c" stroke-width="2.2" stroke-dasharray=""/>
+<circle cx="70.0" cy="50.0" r="3.5" fill="#2ca02c"><title>Optimal: 1 кадров → 20</title></circle>
+<circle cx="141.4" cy="172.5" r="3.5" fill="#2ca02c"><title>Optimal: 2 кадров → 13</title></circle>
+<circle cx="212.9" cy="242.5" r="3.5" fill="#2ca02c"><title>Optimal: 3 кадров → 9</title></circle>
+<circle cx="284.3" cy="260.0" r="3.5" fill="#2ca02c"><title>Optimal: 4 кадров → 8</title></circle>
+<circle cx="355.7" cy="277.5" r="3.5" fill="#2ca02c"><title>Optimal: 5 кадров → 7</title></circle>
+<circle cx="427.1" cy="295.0" r="3.5" fill="#2ca02c"><title>Optimal: 6 кадров → 6</title></circle>
+<circle cx="498.6" cy="295.0" r="3.5" fill="#2ca02c"><title>Optimal: 7 кадров → 6</title></circle>
+<circle cx="570.0" cy="295.0" r="3.5" fill="#2ca02c"><title>Optimal: 8 кадров → 6</title></circle>
+<line x1="585" y1="109" x2="615" y2="109" stroke="#2ca02c" stroke-width="3" stroke-dasharray=""/>
+<text x="622" y="113">Optimal</text>
+<polyline points="70.0,50.0 141.4,137.5 212.9,155.0 284.3,242.5 355.7,242.5 427.1,295.0 498.6,295.0 570.0,295.0" fill="none" stroke="#ff7f0e" stroke-width="2.2" stroke-dasharray="2,3"/>
+<circle cx="70.0" cy="50.0" r="3.5" fill="#ff7f0e"><title>Clock: 1 кадров → 20</title></circle>
+<circle cx="141.4" cy="137.5" r="3.5" fill="#ff7f0e"><title>Clock: 2 кадров → 15</title></circle>
+<circle cx="212.9" cy="155.0" r="3.5" fill="#ff7f0e"><title>Clock: 3 кадров → 14</title></circle>
+<circle cx="284.3" cy="242.5" r="3.5" fill="#ff7f0e"><title>Clock: 4 кадров → 9</title></circle>
+<circle cx="355.7" cy="242.5" r="3.5" fill="#ff7f0e"><title>Clock: 5 кадров → 9</title></circle>
+<circle cx="427.1" cy="295.0" r="3.5" fill="#ff7f0e"><title>Clock: 6 кадров → 6</title></circle>
+<circle cx="498.6" cy="295.0" r="3.5" fill="#ff7f0e"><title>Clock: 7 кадров → 6</title></circle>
+<circle cx="570.0" cy="295.0" r="3.5" fill="#ff7f0e"><title>Clock: 8 кадров → 6</title></circle>
+<line x1="585" y1="131" x2="615" y2="131" stroke="#ff7f0e" stroke-width="3" stroke-dasharray="2,3"/>
+<text x="622" y="135">Clock</text>
+</svg>
